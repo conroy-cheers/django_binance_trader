@@ -14,9 +14,9 @@ class OrderState(Enum):
 
 
 ORDER_STATE_TERMINAL_VALUES = (
-    OrderState.COMPLETED,
-    OrderState.CANCELLED,
-    OrderState.CANCELLED_PARTIAL
+    OrderState.COMPLETED.value,
+    OrderState.CANCELLED.value,
+    OrderState.CANCELLED_PARTIAL.value
 )
 
 
